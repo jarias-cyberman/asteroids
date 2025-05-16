@@ -5,6 +5,7 @@ import random
 from asteroid import Asteroid
 from constants import *
 
+AsteroidField.containers = updatable
 
 class AsteroidField(pygame.sprite.Sprite):
     edges = [
